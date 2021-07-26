@@ -1,0 +1,84 @@
+You are conducting a contest at your college. This contest consists of two problems and  participants. You know the problem that a candidate will solve during the contest.
+
+You provide a balloon to a participant after he or she solves a problem. There are only green and purple-colored balloons available in a market. Each problem must have a balloon associated with it as a prize for solving that specific problem. You can distribute balloons to each participant by performing the following operation:
+
+Use green-colored balloons for the first problem and purple-colored balloons for the second problem
+Use purple-colored balloons for the first problem and green-colored balloons for the second problem
+You are given the cost of each balloon and problems that each participant solve. Your task is to print the minimum price that you have to pay while purchasing balloons.
+
+Input format
+
+First line:  that denotes the number of test cases ()
+For each test case: 
+First line: Cost of green and purple-colored balloons 
+Second line:  that denotes the number of participants ()
+Next  lines: Contain the status of users. For example, if the value of the  integer in the  row is , then it depicts that the  participant has not solved the  problem. Similarly, if the value of the  integer in the  row is , then it depicts that the  participant has solved the  problem.
+Output format
+For each test case, print the minimum cost that you have to pay to purchase balloons.
+
+2
+9 6
+10
+1 1
+1 1
+0 1
+0 0
+0 1
+0 0
+0 1
+0 1
+1 1
+0 0
+1 9
+10
+0 1
+0 0
+0 0
+0 1
+1 0
+0 1
+0 1
+0 0
+0 1
+0 0
+Sample Output
+69
+14
+
+
+
+A. Pasha and Stick
+time limit per test1 second
+memory limit per test256 megabytes
+inputstandard input
+outputstandard output
+Pasha has a wooden stick of some positive integer length n. He wants to perform exactly three cuts to get four parts of the stick. Each part must have some positive integer length and the sum of these lengths will obviously be n.
+
+Pasha likes rectangles but hates squares, so he wonders, how many ways are there to split a stick into four parts so that it's possible to form a rectangle using these parts, but is impossible to form a square.
+
+Your task is to help Pasha and count the number of such ways. Two ways to cut the stick are considered distinct if there exists some integer x, such that the number of parts of length x in the first way differ from the number of parts of length x in the second way.
+
+Input
+The first line of the input contains a positive integer n (1 ≤ n ≤ 2·109) — the length of Pasha's stick.
+
+Output
+The output should contain a single integer — the number of ways to split Pasha's stick into four parts of positive integer length so that it's possible to make a rectangle by connecting the ends of these parts, but is impossible to form a square.
+
+Examples
+inputCopy
+6
+outputCopy
+1
+inputCopy
+20
+outputCopy
+4
+Note
+There is only one way to divide the stick in the first sample {1, 1, 2, 2}.
+
+Four ways to divide the stick in the second sample are {1, 1, 9, 9}, {2, 2, 8, 8}, {3, 3, 7, 7} and {4, 4, 6, 6}. Note that {5, 5, 5, 5} doesn't work.
+
+
+
+
+
